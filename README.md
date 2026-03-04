@@ -63,6 +63,12 @@ If you need to swap libvlc builds, replace the corresponding files under
 
 RTSP-specific setup notes are available in `RTSP_SETUP.md`.
 
+### UE5.6 RTSP Preview
+
+The screenshot below shows RTSP playback running in UE 5.6 with this plugin setup.
+
+![UE5.6 RTSP CCTV preview](Resources/images/ue56-rtsp-cctv-preview.png)
+
 ## References
 
 - [VideoLAN](https://www.videolan.org/)
