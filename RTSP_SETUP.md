@@ -9,7 +9,7 @@
 
 ## 환경
 
-- 프로젝트 경로: `C:\Projects\005_Project\IMS_Guryong`
+- 프로젝트 경로(예시): `<YourProject>/Plugins/VlcMedia`
 - 엔진: Unreal Engine 5.6.x
 - RTSP 예시: `rtsp://210.99.70.120:1935/live/cctv001.stream`
   - 테스트 주소 출처: [충청남도 천안시_교통정보 CCTV](https://www.data.go.kr/data/15063717/fileData.do)
@@ -57,7 +57,7 @@
 
 ## 보안 고려사항
 
-- **인증 URL**: `rtsp://username:password@host:port/path` (테스트용만 권장)
+- **인증 URL**: `rtsp://<user>:<password>@<host>:<port>/<path>` (실계정/실비밀번호 직접 노출 금지)
 - **네트워크**: 방화벽에서 554(RTSP), 1935(RTMP) 포트 허용
 - **TLS**: 프로덕션에서는 `rtsps://` 사용 고려
 
